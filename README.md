@@ -1,5 +1,7 @@
 # Data Visualization and Web Development Tools
 
+## ![Background](https://cdn.prod.website-files.com/59e16042ec229e00016d3a66/64c03019401ab11733f2e1be_data-visualization%2Blinking_blog-hero.gif)
+
 This repository contains information about several popular libraries and frameworks used in Python and R for data visualization, data manipulation, and web development. Below is an overview of each tool:
 
 ## 1. Matplotlib
@@ -63,3 +65,6 @@ This repository contains information about several popular libraries and framewo
 Each of these tools and frameworks has its unique strengths and is suited for different tasks depending on your needs. Matplotlib, Seaborn, and ggplot2 are primarily used for data visualization, while tidyr is a powerful tool for data manipulation in R. Shiny enables the creation of interactive web apps in R, and Django is a robust framework for building web applications in Python.
 
 Explore the individual folders for more detailed information and examples for each tool.
+
+---
+<p align="center">&copy; 2024 Venkata Sri Deepthi SriKotaPeetambaram | Data Visualization and Web Development Tools Repository</p>
