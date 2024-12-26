@@ -58,6 +58,15 @@ This repository contains information about several popular libraries and framewo
 - Emphasizes the "Don't Repeat Yourself" (DRY) principle.
 - Suitable for building complex, data-driven websites.
 
+## 7. D3.js, or Data-Driven Documents
+**D3.js, or Data-Driven Documents** , is a powerful JavaScript library for creating dynamic and interactive data visualizations directly in the browser. It leverages common web standards like HTML, CSS, and Scalable Vector Graphics (SVG), making it a versatile tool for creating rich, visually appealing representations of data.
+
+### Features: 
+- Dynamic Visualizations: Build interactive and responsive visualizations.
+- Flexibility: Works seamlessly with HTML, CSS, and SVG.
+- Data Transformation: Transform raw data into various types of visualizations such as charts, graphs, and maps.
+- Wide Input Format Support: Accepts data in multiple formats, including JSON, CSV, and arrays.
+
 ---
 
 ## Usage
