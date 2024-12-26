@@ -1,0 +1,55 @@
+
+Use the attr() method to add a class of bar to all the rect elements. This changes the fill color of the bar to brown when you mouse over it.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .bar {
+      fill: navy; /* Initial fill color */
+    }
+    .bar:hover {
+      fill: brown; /* Fill color on mouse over */
+    }
+    svg {
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+    const w = 500;
+    const h = 100;
+    const m = 3; // The constant that scales the data points
+
+    const svg = d3.select("body")
+                  .append("svg")
+                  .attr("width", w)
+                  .attr("height", h);
+
+    svg.selectAll("rect")
+       .data(dataset)
+       .enter()
+       .append("rect")
+       .attr("x", (d, i) => i * 30)
+       .attr("y", (d) => h - m * d) // Updated y attribute callback
+       .attr("width", 25)
+       .attr("height", (d) => d * m) // Height is still scaled by 3
+       .attr("class", "bar"); // Adding class bar to each rect element
+
+    // Append text nodes to the svg
+    svg.selectAll("text")
+       .data(dataset)
+       .enter()
+       .append("text")
+       .attr("x", (d, i) => i * 30)
+       .attr("y", (d) => h - m * d - 3) // y value is 3 units higher than the bar
+       .text((d) => d) // Set the label equal to the data point value
+       .style("font-size", "25px") // Set font-size to 25px
+       .style("fill", "red"); // Set color to red
+  </script>
+</body>
+</html>

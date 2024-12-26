@@ -1,0 +1,31 @@
+Use the yScale variable to create a linear y-axis scale. The domain should start at zero and go to the maximum y value in the set. The range should use the SVG height (h) and include padding.
+
+Note: Remember to keep the plot right-side-up. When you set the range for the y coordinates, the higher value (height minus padding) is the first argument, and the lower value is the second argument.
+
+
+
+<body>
+  <script>
+    const positionData = [
+      [1, 7, -4],
+      [6, 3, 8],
+      [2, 9, 3]
+    ];
+
+    const w = 500;
+    const h = 500;
+    const padding = 30;
+
+    // Create the y-axis scale
+    const yScale = d3.scaleLinear()
+                     .domain([0, 411])
+                     .range([470, 30]);
+
+    const output = 30; // Output should be 30
+
+    d3.select("body")
+      .append("h2")
+      .text(output); // The text in the h2 should be 30
+
+  </script>
+</body>

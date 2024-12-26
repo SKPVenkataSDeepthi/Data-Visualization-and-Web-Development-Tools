@@ -1,0 +1,29 @@
+Add an attr() method to set the fill of all the bars to the color navy.
+
+
+
+
+<body>
+  <script>
+    const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+
+    const w = 500;
+    const h = 100;
+    const m = 3; // The constant that scales the data points
+
+    const svg = d3.select("body")
+                  .append("svg")
+                  .attr("width", w)
+                  .attr("height", h);
+
+    svg.selectAll("rect")
+       .data(dataset)
+       .enter()
+       .append("rect")
+       .attr("x", (d, i) => i * 30)
+       .attr("y", (d) => h - m * d) // Updated y attribute callback
+       .attr("width", 25)
+       .attr("height", (d, i) => d * m) // Height is still scaled by 3
+       .attr("fill", "navy"); // Setting fill color to navy
+  </script>
+</body>

@@ -1,0 +1,43 @@
+
+Use the data(), enter(), and append() methods to create and append a rect for each item in dataset. The bars should display all on top of each other; this will be fixed in the next challenge.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .bar {
+      width: 25px;
+      height: 100px;
+      margin: 2px;
+      display: inline-block;
+      background-color: blue;
+    }
+    svg {
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const dataset = [12, 31, 22, 17, 25, 18, 29, 14, 9];
+    const w = 500;
+    const h = 100;
+
+    // Adding an svg node with specified width and height
+    const svg = d3.select("body")
+      .append("svg")
+      .attr("width", w)
+      .attr("height", h);
+
+    // Creating and appending a rect for each item in the dataset
+    svg.selectAll("rect")
+      .data(dataset)
+      .enter()
+      .append("rect")
+      .attr("width", 25)
+      .attr("height", (d) => d * 10) // Height based on data value, scaled by 10
+      .attr("x", 0)
+      .attr("y", 0); // Initially setting y to 0, will be adjusted in the next challenge
+  </script>
+</body>
+</html>

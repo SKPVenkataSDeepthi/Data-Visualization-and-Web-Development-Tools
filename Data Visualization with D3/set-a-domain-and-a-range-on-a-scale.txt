@@ -1,0 +1,21 @@
+
+Create a scale and set its domain to [250, 500] and range to [10, 150].
+
+Note: You can chain the domain() and range() methods onto the scale variable.
+
+
+
+<body>
+  <script>
+    // Create a linear scale
+    const scale = d3.scaleLinear()
+                    .domain([250, 500]) // Input range
+                    .range([10, 150]); // Output range
+    
+    const output = scale(50); // Call scale with an argument of 50
+
+    d3.select("body")
+      .append("h2")
+      .text(output); // The text in the h2 should be -102
+  </script>
+</body>
