@@ -9,9 +9,9 @@ Completing these projects fulfills the requirements for the **FreeCodeCamp Data 
 
 ---
 ## Technologies Used
-D3.js: For creating dynamic and interactive visualizations.
-APIs and AJAX: For fetching and parsing data from external sources.
-HTML, CSS, JavaScript: For structuring and styling the projects.
+- D3.js: For creating dynamic and interactive visualizations.
+- APIs and AJAX: For fetching and parsing data from external sources.
+- HTML, CSS, JavaScript: For structuring and styling the projects.
 
 ---
 Happy coding! 🎉
