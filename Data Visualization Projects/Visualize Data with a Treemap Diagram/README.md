@@ -46,7 +46,7 @@ You can use any of the following datasets for the project:
 - [Movie Sales](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json)  
 - [Video Game Sales](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json)  
 
-In my solution, I used one of the above datasets to demonstrate the functionality.
+In my solution, I used Video Game Sales Dataset to demonstrate the functionality.
 
 ## Technologies Used
 
