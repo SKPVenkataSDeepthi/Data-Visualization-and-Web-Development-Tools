@@ -35,7 +35,7 @@ The dataset used for this project can be found here:
 
 ## Solution
 
-You can view the solution live and test its functionality here:  
+You can view my solution live and test its functionality here:  
 👉 [Solution Page on CodePen](https://codepen.io/deepthi-Srikotapeetambaram/pen/YPKxYzo)
 
 ### How to Test
