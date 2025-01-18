@@ -2,7 +2,7 @@
 
 This project is a solution to the **Visualize Data with a Bar Chart** task from the FreeCodeCamp **Data Visualization Certification**. The goal was to build a bar chart that meets the specified user stories and passes all the required tests.
 
-You can view the live solution here: [Bar Chart Solution](https://codepen.io/deepthi-Srikotapeetambaram/pen/NPKvwmr).
+You can view my solution here: [Bar Chart Solution](https://codepen.io/deepthi-Srikotapeetambaram/pen/NPKvwmr).
 
 ---
 
