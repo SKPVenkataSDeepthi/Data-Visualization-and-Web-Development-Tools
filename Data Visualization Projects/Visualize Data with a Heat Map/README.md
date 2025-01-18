@@ -4,7 +4,7 @@ This project is a **Heat Map Visualization** built using **D3.js**, **HTML**, **
 
 ## Objective
 
-Create a heat map that visualizes global temperature data, with interactive features and proper alignment with the axes. The project meets the following **User Stories**:
+Create a heat map that visualizes global temperature data, with interactive features and proper alignment with the axes. The project meets the following user Stories:
 
 ### User Stories
 
