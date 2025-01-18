@@ -33,9 +33,11 @@ This README has been compiled using information and examples from various source
   - [Matplotlib Pyplot API Reference](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
   - [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index)
 - **YouTube channels**:
-  - [freeCodeCamp](https://www.youtube.com/c/Freecodecamp)
   - [Corey Schafer](https://www.youtube.com/user/schafer5)
 
+Happy visualizing! 🌟
 
-This version of the `README.md` includes clickable links to the references, making it easy to navigate to the mentioned resources.
+---
+<p align="center">&copy; 2025 Venkata Sri Deepthi SriKotaPeetambaram | Data Visualization and Web Development Tools - Matplotlib Repository</p>
+
 
