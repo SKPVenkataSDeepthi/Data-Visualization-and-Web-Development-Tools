@@ -10,7 +10,7 @@ The visualization dynamically represents hierarchical data, with tiles sized acc
 
 ## Live Demo
 
-You can view the solution on **CodePen**:  
+You can view my solution on **CodePen**:  
 [Tree Map Solution](https://codepen.io/deepthi-Srikotapeetambaram/pen/bNbrawg)
 
 ### How to Test
