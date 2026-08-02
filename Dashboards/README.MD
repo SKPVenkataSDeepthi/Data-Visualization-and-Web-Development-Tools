@@ -103,6 +103,59 @@ A healthcare and epidemiology analytics dashboard for visualizing disease trends
 - dplyr
 
 ---
+## 📺 5. Analyze YouTube Trends Dashboard
+
+📂 **Source Repository:**
+https://github.com/SKPVenkataSDeepthi/R-Programming/tree/main/Analyze%20YouTube%20Trends
+
+### Overview
+
+An interactive data visualization dashboard that explores YouTube video trends over the past decade using statistical and interactive visualizations. The project analyzes engagement metrics such as views, likes, comments, publication trends, title lengths, and content categories to uncover patterns in YouTube content performance.
+
+### Features
+
+* 📈 Publication trends by year
+* 📝 Title length distribution analysis
+* 💬 Category-wise comment trends over time
+* ❤️ Likes vs. Comments interactive scatter analysis
+* 📊 Correlation heatmap of engagement metrics
+* 📦 Boxplots comparing title lengths across categories
+* 🎯 Top-performing categories by total views
+* 🕸️ Radar chart for category comparison
+* 🌄 Ridgeline plots for publication trends
+* 🗂️ Treemap visualization of category popularity
+* 🌐 Interactive Plotly visualizations
+* 📋 Static analytical dashboard built using Flexdashboard
+
+### Technologies Used
+
+* R
+* ggplot2
+* Plotly
+* dplyr
+* tidyr
+* Flexdashboard
+* corrplot
+* fmsb
+* ggridges
+* treemapify
+
+### Project Highlights
+
+This project demonstrates the complete analytics workflow:
+
+* Data cleaning and preprocessing
+* Feature engineering
+* Exploratory Data Analysis (EDA)
+* Statistical visualization
+* Interactive dashboard development
+* Data storytelling using R
+
+📸 **Dashboard outputs, visualizations, and complete source code can be found here:**
+
+https://github.com/SKPVenkataSDeepthi/R-Programming/tree/main/Analyze%20YouTube%20Trends
+
+---
 
 # 🛠️ Technologies & Tools Used
 
